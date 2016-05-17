@@ -1,13 +1,13 @@
 package dataMining_HW2;
 
 public class treeNode {
-	private int[] data;
+	private int data;
 	private int position;
 	private treeNode parent;
 	private treeNode right;
 	private treeNode left;
 
-	public treeNode(int[] data,treeNode parent,treeNode left,treeNode right)
+	public treeNode(int data,treeNode parent,treeNode left,treeNode right)
 	{
 		setData(data);
 		setParent(parent);
@@ -16,7 +16,7 @@ public class treeNode {
 	}
 	
 	
-	public void setData(int[] setdata) {
+	public void setData(int setdata) {
 		// TODO Auto-generated method stub
 		data=setdata;
 	}
@@ -36,7 +36,7 @@ public class treeNode {
 	}
 
 	
-	public int[] getData() {
+	public int getData() {
 		// TODO Auto-generated method stub
 		return data;
 	}
